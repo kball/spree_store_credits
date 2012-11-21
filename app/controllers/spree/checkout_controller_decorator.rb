@@ -1,6 +1,6 @@
 module Spree
   CheckoutController.class_eval do
-    before_filter :remove_payments_attributes_if_total_is_zero
+    #before_filter :remove_payments_attributes_if_total_is_zero
 
     private
     def remove_payments_attributes_if_total_is_zero
